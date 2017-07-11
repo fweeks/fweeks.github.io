@@ -6,6 +6,11 @@
  h1{
    font-size: 80px;
  }
+ .boxphotos {
+   width:250px;
+   height:250%;
+   overflow: hidden;
+}
  .video-container {
    position: relative;
  }
@@ -14,6 +19,12 @@
    vertical-align: middle;
    width: 100%;
  }
+ .teamphoto{
+       width:700px;
+       height:314%;
+       background-image: sour(Images/teampicture.png);
+ }
+
  .overlay-desc {
    background: rgba(0,0,0,0);
    position: absolute;
