@@ -1,0 +1,650 @@
+/*
+Theme Name: Lambada
+Theme URI: https://www.wowthemes.net/premium-themes-templates/
+Description: A beautiful minimalist theme for Easy Digital Downloads
+Version: 1.0
+Author: WowThemesNet
+Author URI: https://www.wowthemes.net/
+*/
+
+
+body
+{
+	color:#666;
+	font-family:Raleway,arial,serif;
+	font-size:14px;
+	letter-spacing:.5px;
+	line-height:1.8em;
+}
+
+.container.full
+{
+	width:100%;
+}
+
+.wrapallcontent
+{
+	background-color:#f4f5f6;
+	padding-top:40px;
+}
+
+.wrapheader
+{
+	background-attachment:fixed;
+	background-image:url(img/bg.jpg);
+	background-size:cover;
+}
+
+a
+{
+	color:#20B2AA;
+	text-decoration:none;
+	transition:all .2s;
+}
+
+h1 a,h2 a,h3 a,h4 a
+{
+	color:#000;
+}
+
+h1,h2,h3,h4,h5
+{
+	font-family:Montserrat;
+}
+
+.clearfix:after
+{
+	clear:both;
+	content:".";
+	display:block;
+	float:none;
+	text-indent:-9999px;
+	visibility:hidden;
+}
+
+#header
+{
+	background:rgba(32,178,170,0.5);
+	color:#f0f0f0;
+	margin:0 auto;
+	padding:30px 0;
+}
+
+#header a
+{
+	color:#fff;
+}
+
+#logo-wrap
+{
+	margin:20px auto;
+	text-align:center;
+}
+
+#logo-wrap h1
+{
+	font-size:44px;
+	line-height:44px;
+}
+
+#navigation-wrap
+{
+	background:#fff;
+	border-bottom:1px solid #eee;
+	position:relative;
+	z-index:1;
+}
+
+#main-nav
+{
+	margin:0 auto;
+	max-width:1160px;
+}
+
+#main-nav ul
+{
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#main-nav li
+{
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+	margin:0;
+	padding:0;
+}
+
+#main-nav a
+{
+	color:#333;
+	display:block;
+	font-weight:700;
+	height:60px;
+	line-height:60px;
+	padding:0 15px;
+	text-decoration:none;
+}
+
+#main-nav .current-menu-item a,#main-nav .current_page_item a,#main-nav a:hover
+{
+	background:#20B2AA;
+	color:#fff;
+	text-shadow:none;
+}
+
+#main-nav span#header-cart
+{
+	display:inline-block;
+	float:right;
+}
+
+.content
+{
+	background-color:#fff;
+	padding:30px;
+}
+
+.entry
+{
+	margin:0 0 20px;
+}
+
+.aligncenter
+{
+	display:inherit;
+	margin:0 auto;
+	text-align:center;
+	width:auto;
+}
+
+.alignleft
+{
+	margin-right:15px;
+	text-align:left;
+}
+
+.alignright
+{
+	margin-left:15px;
+	text-align:right;
+}
+
+.single .entry img
+{
+	margin-bottom:15px;
+}
+
+.entry .attachment-thumbnail
+{
+	border:1px solid #DDD;
+	float:left;
+	margin:0 20px 20px 0;
+	padding:3px;
+}
+
+h2.title
+{
+	color:#000;
+	font-size:17px;
+	line-height:1.2em;
+	margin:0 0 10px;
+	padding:0 20px 20px;
+}
+
+.c8 .content,.c12 .content
+{
+	min-height:500px;
+}
+
+.entry.product-content h2.title,.entry h2.title
+{
+	font-size:21px;
+	padding:0 0 10px;
+}
+
+.profileeditor input,.profileeditor select,.profileeditor textarea
+{
+	border:1px solid #eee;
+	min-height:30px;
+	padding:0 15px;
+	width:100%;
+}
+
+.profileeditor fieldset
+{
+	border:0;
+}
+
+.profileeditor legend
+{
+	font-weight:700;
+	margin-bottom:-10px;
+	text-transform:uppercase;
+}
+
+.sidebar li.widget
+{
+	display:block;
+	margin:0 0 20px;
+}
+
+.sidebar li.widget h3.widget_title
+{
+	margin:0 0 10px;
+}
+
+.sidebar li.widget li
+{
+	border-bottom:0;
+	display:block;
+	margin:0 0 5px;
+	padding-bottom:5px;
+}
+
+.sidebar #searchinput
+{
+	border:1px solid #EEE;
+	outline:none;
+	padding:8px 30px 8px 10px;
+	position:relative;
+	width:125px;
+}
+
+.sidebar #searchsubmit
+{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:0;
+	border:1px solid #CCC;
+	border-radius:5px;
+	color:#969696;
+	cursor:pointer;
+	font-size:12px;
+	padding:8px 0;
+	width:80px!important;
+}
+
+#footer
+{
+	background:#2E2E2E;
+	border-top:1px solid #fff;
+	font-size:90%;
+	margin:40px auto 0;
+	padding:60px 0 40px;
+}
+
+#footer a
+{
+	color:inherit;
+}
+
+#footer a:hover
+{
+	color:#fff;
+}
+
+#footer ul
+{
+	margin-left:0;
+	padding-left:0;
+}
+
+#footer li.widget
+{
+	display:block;
+}
+
+#footer .widget li
+{
+	display:block;
+	margin:0 0 5px;
+	padding:0;
+}
+
+#footer .widget h3
+{
+	border-bottom:1px solid #666;
+	color:#fff;
+	font-size:14px;
+	margin:0 0 20px;
+	padding:0 0 8px;
+	text-transform:uppercase;
+}
+
+#copyright
+{
+	background:#252525;
+	border-top:1px solid #3D3D3D;
+	padding:10px 0;
+}
+
+.store-template .product
+{
+	background-color:#fff;
+	margin-bottom:30px;
+	padding:0;
+}
+
+.product-image
+{
+	margin:0 0 20px;
+	position:relative;
+}
+
+.product-price
+{
+	background:rgba(0,0,0,0.60);
+	bottom:4px;
+	color:#fff;
+	font-size:12px;
+	left:4px;
+	padding:6px 8px;
+	position:absolute;
+	width:auto;
+}
+
+.postinfo a
+{
+	color:#333;
+	font-size:90%;
+	margin-right:5px;
+}
+
+#edd_checkout_form_wrap select,#edd_checkout_form_wrap input[type=text],#edd_checkout_form_wrap input[type=email],#edd_checkout_form_wrap input[type=password],#edd_checkout_form_wrap textarea
+{
+	border:1px solid #eee;
+}
+
+.attachment-product-image-large
+{
+	margin:0 0 20px;
+}
+
+.product-meta
+{
+	margin:0 0 20px;
+}
+
+.sideb
+{
+	font-size:90%;
+}
+
+.sideb ul
+{
+	margin-left:0;
+	padding-left:0;
+}
+
+h4.single-product-price
+{
+	font-size:36px;
+	line-height:36px;
+	margin:0 0 15px;
+}
+
+.edd_price_options
+{
+	margin:0 0 15px;
+}
+
+.pagination
+{
+	clear:both;
+	margin-left:15px;
+	width:100%;
+}
+
+.pagination a,.pagination span
+{
+	background-color:#20B2AA;
+	border:#20B2AA 1px solid;
+	color:#fff;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:45px;
+	line-height:45px;
+	margin-right:5px;
+	min-width:45px;
+	padding:0 5px;
+	text-align:center;
+}
+
+.pagination a:hover,.pagination span.current
+{
+	background:#444;
+	border:1px solid #444;
+	color:#FFF;
+	text-decoration:none;
+}
+
+#commentsbox
+{
+	margin-top:30px;
+}
+
+#commentsbox ol,#commentsbox ul
+{
+	list-style:none;
+	margin-left:0!important;
+}
+
+#commentsbox li
+{
+	margin-bottom:30px;
+}
+
+.children
+{
+	list-style:none;
+	margin:10px 0 0;
+	text-indent:0;
+}
+
+.children li.depth-2
+{
+	margin:0 0 0 50px;
+}
+
+.children li.depth-3
+{
+	margin:0 0 0 50px;
+}
+
+.children li.depth-4
+{
+	margin:0 0 0 50px;
+}
+
+.children li.depth-5
+{
+	margin:0 0 0 50px;
+}
+
+.comment-body
+{
+	background:#FFF;
+	border-bottom:1px solid #EEE;
+	padding:20px 0;
+	position:relative;
+}
+
+#commentsbox .avatar
+{
+	border-radius:50%;
+	float:left;
+	margin-right:30px;
+}
+
+.comment-author
+{
+	color:#000;
+	font-size:12px;
+	line-height:1em;
+	margin-bottom:5px;
+}
+
+.says
+{
+	display:none;
+}
+
+.comment-meta a
+{
+	color:#666;
+	font-size:10px;
+	font-style:italic;
+	margin-bottom:10px;
+}
+
+.comment-reply-link
+{
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	background:#EEE;
+	border:1px solid #E3E3E3;
+	border-radius:50px;
+	bottom:-10px;
+	color:#666;
+	font-size:10px;
+	padding:0 8px;
+	position:absolute;
+	right:0;
+}
+
+.cancel-comment-reply a
+{
+	color:red;
+	height:20px;
+	line-height:20px;
+}
+
+#respond
+{
+	margin:40px 0 15px;
+}
+
+#comments-respond
+{
+	clear:both;
+	margin:0 0 10px;
+	padding:0;
+}
+
+#commentform label
+{
+	display:block;
+	font-size:11px;
+}
+
+#commentform input
+{
+	margin-bottom:10px;
+	width:40%;
+}
+
+#commentform textarea
+{
+	display:block;
+	margin-top:10px;
+	width:70%;
+}
+
+#commentform input#author,#commentform input#email,#commentform input#url,#commentform textarea
+{
+	-moz-border-radius:5px;
+	-moz-transition:all .2s ease-in-out;
+	-ms-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-webkit-border-radius:5px;
+	-webkit-transition:all .2s ease-in-out;
+	background:#FFF;
+	border:1px solid #E3E3E3;
+	border-radius:5px;
+	padding:5px;
+	position:relative;
+	transition:all .2s ease-in-out;
+}
+
+#commentform input#author:focus,#commentform input#email:focus,#commentform input#url:focus,#commentform textarea:focus
+{
+	-moz-box-shadow:3px 3px 0 #EEE;
+	-webkit-box-shadow:3px 3px 0 #EEE;
+	box-shadow:3px 3px 0 #EEE;
+}
+
+#commentsubmit
+{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:0;
+	border:1px solid #CCC;
+	border-radius:5px;
+	color:#969696;
+	cursor:pointer;
+	font-size:12px;
+	padding:5px 0;
+	width:100px!important;
+}
+
+#commentsubmit:hover
+{
+	background:#EEE!important;
+}
+
+#edd_login_form .edd-input,.profileeditor input[type=submit],.edd-submit.button,.edd-submit.button.gray,.edd-submit.button:visited,#commentsubmit,#edd-purchase-button,.edd-submit,input[type=submit].edd-submit
+{
+	background:#20B2AA;
+	border:0;
+	border-radius:0;
+	color:#fff;
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:1px;
+	padding:13px 20px;
+}
+
+#edd_login_form .edd-input,#edd_login_form label,#edd_profile_editor_form label,#edd_register_form .edd-input,#edd_register_form label
+{
+	width:100%;
+}
+
+.profileeditor input[type=submit]
+{
+	margin-top:10px;
+}
+
+.tinynav { 
+	display: none;
+  }
+
+@media screen and (max-width: 992px) {
+	.c4 {width:50%;float:left;}
+}
+ 
+@media screen and (max-width: 640px) {
+	.tinynav { display: block }
+	.menu { display: none }
+	select.tinynav {
+	width: 100%;
+	background-color: lightseagreen;
+	color: #fff;
+	min-height: 50px;
+	padding: 15px 20px;
+	border: 1px solid #666;
+	margin-top: 20px;
+	}
+	select.tinynav option {padding:10px;}
+	
+}
+
+@media screen and (max-width: 486px) {
+	.store-template {text-align:center;}
+	.store-template .c4 {max-width:330px;}
+	.c4 {width:100%;float:none;}
+	.product-image img {margin-left:auto;margin-right:auto;text-align:center;}
+}
